@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://beyxudbxvd6xi"
+path="res://.godot/imported/Mock_Sun - Halls OST 005.wav-87a3babb239fa71455ffb3947ad228f8.sample"
+
+[deps]
+
+source_file="res://raw_assets/Mock_Sun - Halls OST 005.wav"
+dest_files=["res://.godot/imported/Mock_Sun - Halls OST 005.wav-87a3babb239fa71455ffb3947ad228f8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
