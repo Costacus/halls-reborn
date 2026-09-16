@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://damc1klcsdqrf"]
+
+[ext_resource type="Script" uid="uid://cwyh580ud1jkn" path="res://main_menu.gd" id="1_06t4h"]
+[ext_resource type="AudioStream" uid="uid://yxxm3o0iq8ot" path="res://raw_assets/audio/music/Remedy_of_a_Knocking_Door - Halls OST 001.wav" id="2_7vrkn"]
+
+[node name="Main Menu" type="Node2D" unique_id=346284895]
+script = ExtResource("1_06t4h")
+
+[node name="Button Manager" type="Control" parent="." unique_id=194262498]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 203.0
+offset_top = 54.0
+offset_right = 674.0
+offset_bottom = 423.0
+
+[node name="Play" type="Button" parent="Button Manager" unique_id=86049507]
+layout_mode = 0
+offset_left = -171.0
+offset_top = 266.0
+offset_right = -59.0
+offset_bottom = 306.0
+text = "Play"
+
+[node name="Credits" type="Button" parent="Button Manager" unique_id=808161665]
+layout_mode = 0
+offset_left = -171.0
+offset_top = 314.0
+offset_right = -64.262436
+offset_bottom = 362.37387
+scale = Vector2(1.0493026, 0.8268928)
+text = "Credits"
+
+[node name="Quit" type="Button" parent="Button Manager" unique_id=989956900]
+layout_mode = 0
+offset_left = -171.0
+offset_top = 362.0
+offset_right = -83.0
+offset_bottom = 403.0
+text = "Quit"
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=174204308]
+stream = ExtResource("2_7vrkn")
+autoplay = true
+
+[connection signal="pressed" from="Button Manager/Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="Button Manager/Credits" to="." method="_on_credits_pressed"]
+[connection signal="pressed" from="Button Manager/Quit" to="." method="_on_quit_pressed"]
