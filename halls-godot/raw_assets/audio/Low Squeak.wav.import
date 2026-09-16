@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ljp3dnlul2lb"
+path="res://.godot/imported/Low Squeak.wav-bc95fc8b484301c7bd853194df4bdb03.sample"
+
+[deps]
+
+source_file="res://raw_assets/audio/Low Squeak.wav"
+dest_files=["res://.godot/imported/Low Squeak.wav-bc95fc8b484301c7bd853194df4bdb03.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://7q7hylsdq1va"]
+
+[ext_resource type="Texture2D" uid="uid://cuj0kk1uuadtk" path="res://raw_assets/textures/sprites/entities/whisk/Idle.png" id="1_mlvkd"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_fkdx4"]
+radius = 54.00926
+
+[node name="whisk" type="CharacterBody2D" unique_id=365163997]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1050512116]
+z_index = 2
+texture = ExtResource("1_mlvkd")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1888047333]
+z_index = 3
+shape = SubResource("CircleShape2D_fkdx4")
+
+[node name="RayCast2D" type="RayCast2D" parent="." unique_id=1634481798]
+z_index = 4

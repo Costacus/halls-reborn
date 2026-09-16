@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b3odj2j0rl55w"
+path="res://.godot/imported/Murk Call2_1.wav-aacf485413c5f42c6ba19b029a2c3ce3.sample"
+
+[deps]
+
+source_file="res://raw_assets/audio/sfx/entities/murk/Murk Call2_1.wav"
+dest_files=["res://.godot/imported/Murk Call2_1.wav-aacf485413c5f42c6ba19b029a2c3ce3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

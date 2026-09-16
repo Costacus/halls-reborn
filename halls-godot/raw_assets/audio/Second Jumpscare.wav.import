@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ddq3lg1w65h2x"
+path="res://.godot/imported/Second Jumpscare.wav-1a5290fe0c1ddd53fc873c1f0553034d.sample"
+
+[deps]
+
+source_file="res://raw_assets/audio/Second Jumpscare.wav"
+dest_files=["res://.godot/imported/Second Jumpscare.wav-1a5290fe0c1ddd53fc873c1f0553034d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

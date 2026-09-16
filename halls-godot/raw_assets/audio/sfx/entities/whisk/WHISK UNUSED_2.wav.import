@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dd5i00e65vl1q"
+path="res://.godot/imported/WHISK UNUSED_2.wav-6f47a5ef328b4f765054be4379cad6c2.sample"
+
+[deps]
+
+source_file="res://raw_assets/audio/sfx/entities/whisk/WHISK UNUSED_2.wav"
+dest_files=["res://.godot/imported/WHISK UNUSED_2.wav-6f47a5ef328b4f765054be4379cad6c2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

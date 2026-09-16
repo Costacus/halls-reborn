@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://belto8b3f75uy"
+path="res://.godot/imported/Fatal end - HALLS OST 002.wav-b2458c3777308cd0c3bcb0e29c4c301e.sample"
+
+[deps]
+
+source_file="res://raw_assets/audio/music/Fatal end - HALLS OST 002.wav"
+dest_files=["res://.godot/imported/Fatal end - HALLS OST 002.wav-b2458c3777308cd0c3bcb0e29c4c301e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
